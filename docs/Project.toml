@@ -1,2 +1,13 @@
-[deps]
-Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+name = "RMPBT"
+uuid = "39b4de9e-bb44-439e-bf9e-c0b1af12b345"
+authors = ["Sai suraj karra <45616515+saisurajkarra@users.noreply.github.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.8.3"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
